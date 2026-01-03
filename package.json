@@ -11,7 +11,7 @@
   },
   "author": "AbdullahSafwan",
   "license": "ISC",
-  "module": "module",
+  "type": "module",
   "devDependencies": {
     "@eslint/js": "^9.39.2",
     "@types/express": "^5.0.6",
