@@ -1,0 +1,31 @@
+{
+  "name": "sequilize_prac",
+  "version": "1.0.0",
+  "description": "practice app for learning sequilize",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "nodemon --watch 'src' --exec 'ts-node' src/server.ts",
+    "lint": "eslint . --ext .ts"
+  },
+  "author": "AbdullahSafwan",
+  "license": "ISC",
+  "module": "module",
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.0.3",
+    "dotenv": "^17.2.3",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "express": "^5.2.1",
+    "install": "^0.13.0",
+    "nodemon": "^3.1.11",
+    "npm": "^11.7.0",
+    "prettier": "^3.7.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.51.0"
+  }
+}
