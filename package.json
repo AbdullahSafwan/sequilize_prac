@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/server.js",
-    "dev": "nodemon --watch 'src' --exec 'ts-node' src/server.ts",
+    "dev": "npx nodemon",
     "lint": "eslint . --ext .ts",
     "format:check": "prettier --check .",
     "format:fix": "prettier --write ."
