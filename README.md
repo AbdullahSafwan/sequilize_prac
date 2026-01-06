@@ -5,11 +5,13 @@ A practice project for learning Sequelize ORM with Node.js, TypeScript, and Expr
 ## Setup
 
 1. Install dependencies:
+
 ```bash
 npm install
 ```
 
 2. Create a `.env` file in the root directory:
+
 ```
 PORT=3000
 NODE_ENV=development
@@ -18,6 +20,7 @@ NODE_ENV=development
 ## Development
 
 Run the development server with hot reload:
+
 ```bash
 npm run dev
 ```
