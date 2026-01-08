@@ -29,6 +29,17 @@ export default [
     },
   },
 
+  // CommonJS files (.cjs)
+  {
+    files: ['**/*.cjs'],
+    languageOptions: {
+      sourceType: 'commonjs',
+      globals: {
+        ...globals.node,
+      },
+    },
+  },
+
   // Disable formatting rules that conflict with Prettier
   prettier,
 ];
